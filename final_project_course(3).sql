@@ -16,9 +16,9 @@ DROP TABLE IF EXISTS users;
 CREATE TABLE Course 
 (
 	courseID INT PRIMARY KEY AUTO_INCREMENT,
-	courseName TEXT(100),
-    courseDates TEXT(100),
-    courseTime TEXT(100) 
+	courseName TEXT,
+    courseDates TEXT,
+    courseTime TEXT
 ); 
 
 CREATE TABLE UserCourse 
